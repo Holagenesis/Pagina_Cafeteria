@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee shop</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <section class="flex">
+              
+           <a href="#home" class="logo"><img src="img/icono.png" alt=""></a>
+           <nav class="navbar">
+               <a href="#home">Inicio</a>
+               <a href="#acerca">acerca</a>
+               <a href="#menu">menu</a>
+               <a href="#facility">servicios</a>
+               <a href="#galeria">galeria</a>
+               <a href="#contacto">contacto</a>
+           </nav>
+
+           <div id="menu-btn" class="fas fa-bars"></div>
+
+        </section>
+    </header>
+
+    <div class="home-bg">
+         <section class="home" id="home">
+            
+             <div class="contenido">
+                 <h3>Coffee Heaven</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, earum. Obcaecati recusandae
+                      rem, deserunt, fuga porro adipisci corrupti eaque tenetur consequuntur accusantium quas enim
+                       nihil nulla iste, repudiandae ex labore?</p>
+                 <a href="#acerca" class="btn">Acerca de</a>
+             </div>
+
+         </section>
+
+    </div>
+
+    <section class="acerca" id="acerca">
+
+        <div class="image">
+            <img src="img/ejemplo6.png" alt="">
+        </div>
+        
+        <div class="contenido">
+            <h3>Una taza de cafe puede completar tu dia</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sunt officia, totam rem 
+                ipsum pariatur distinctio optio adipisci aut porro nobis labore aperiam minus ea harum similique? Quia, consequuntur dolorum.</p>
+            <a href="#menu" class="btn"> Nuestro menu</a>
+        </div>
+    </section>
+
+    <section class="facility" id="facility">
+
+        <div class="heading">
+            <img src="img/decoracion.png" alt="">
+            <h3>our facility</h3>
+        </div>
+
+        <div class="caja-contenedor">
+
+            <div class="caja">
+                <img src="img/icono2.png" alt="">
+                <h3>variedades de cafe</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias modi impedit dolor voluptates sit iure excepturi
+                 at voluptatibus labore quisquam eius similique aliquam voluptas tempora aliquid asperiores, neque, omnis molestiae.</p>
+            </div>
+            <div class="caja">
+                <img src="img/icono3.png" alt="">
+                <h3>variedades de cafe</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias modi impedit dolor voluptates sit iure excepturi
+                 at voluptatibus labore quisquam eius similique aliquam voluptas tempora aliquid asperiores, neque, omnis molestiae.</p>
+            </div>
+            <div class="caja">
+                <img src="img/icono4.png" alt="">
+                <h3>variedades de cafe</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias modi impedit dolor voluptates sit iure excepturi
+                 at voluptatibus labore quisquam eius similique aliquam voluptas tempora aliquid asperiores, neque, omnis molestiae.</p>
+            </div>
+            <div class="caja">
+                <img src="img/icono5.png" alt="">
+                <h3>variedades de cafe</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias modi impedit dolor voluptates sit iure excepturi
+                 at voluptatibus labore quisquam eius similique aliquam voluptas tempora aliquid asperiores, neque, omnis molestiae.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="menu" id="menu"> 
+        
+        <div class="heading">
+            <img src="img/decoracion.png" alt="">
+            <h3>Menu</h3>
+        </div>
+        
+        <div class="caja-contenedor">
+
+        <div class="caja">
+            <img src="img/cafe1.png" alt="">
+            <h3>cafe</h3>
+        </div>
+        <div class="caja">
+            <img src="img/cafe2.png" alt="">
+            <h3>cafe negro</h3>
+        </div>
+        <div class="caja">
+            <img src="img/cafe3.png" alt="">
+            <h3>cafe</h3>
+        </div>
+        <div class="caja">
+            <img src="img/cafe4.png" alt="">
+            <h3>cafe</h3>
+        </div>
+        <div class="caja">
+            <img src="img/cafe5.png" alt="">
+            <h3>cappuccino</h3>
+        </div>
+        <div class="caja">
+            <img src="img/cafe6.png" alt="">
+            <h3>cafe</h3>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="galeria" id="galeria">
+
+        <div class="heading">
+            <img src="img/decoracion.png" alt="">
+            <h3>galeria</h3>
+        </div>
+        
+        <div class="caja-contenedor">
+            <img src="img/ejemplo.jpg" alt="">
+            <img src="img/ejemplo2.jpg" alt="">
+            <img src="img/ejemplo3.jpg" alt="">
+            <img src="img/ejemplo4.jpg" alt="">
+        </div>
+       
+
+    </section>
+
+    <section class="contacto" id="contacto">
+
+        <div class="heading">
+            <img src="img/decoracion.png" alt="">
+            <h3>contactanos</h3>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="img/ejemplo5.png" alt="">
+                
+            </div>
+
+            <form action="" method="post">
+                <h3>contacto</h3>
+                  <input type="text" name="name" required class="caja" maxlength="20" placeholder="introduce tu nombre">
+                  <input type="number" name="number" required class="caja" maxlength="20" placeholder="introduce tu numero" min="0" max="99999999999999999999"
+                  onkeypress="if(this.value.length ==10) return false">
+                  <input type="number" name="guests" required class="caja" maxlength="20" placeholder="cuantos pedidos" min="0" max="99999999999999999999"
+                  onkeypress="if(this.value.length ==2) return false">
+                  <input type="submit" name="send" value="mensaje enviado" class="btn">
+
+            </form>
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+         <div class="caja">
+             <i class="fas fa-envelope"></i>
+             <h3>email</h3>
+         </div>
+        
+         <div class="caja">
+            <i class="fas fa-phone"></i>
+            <h3>telefono</h3>
+            <p>+123-456-789</p>
+        </div>
+
+        <div class="caja">
+            <i class="fas fa-clock"></i>
+            <h3>horarios</h3>
+            <p>07:00am a 09:00pm</p>
+        </div>
+
+        <div class="caja">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>direccion</h3>
+        </div>
+
+        <div class="credit">
+            &copy; copyright @ 2022 by <span>Genesis Sanchez</span>
+        </div>
+    </section>
+    
+</body>
+</html>
